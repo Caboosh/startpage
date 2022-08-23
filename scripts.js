@@ -47,7 +47,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{{"id":"x6jC8sKcpCCUCGMn","label":"Gitlab","bookmarks":[{"id":"hYUYoju9VIzMTLJ0","label":"CBSH Group","url":"https://gitlab.com/cbsh"},{"id":"YuD0tp6U5zYMdDGd","label":"My Profile","url":"httls://gitlab.com/cabooshyy"}]}]
+const bookmarks = [{[{"id":"x6jC8sKcpCCUCGMn","label":"Gitlab","bookmarks":[{"id":"hYUYoju9VIzMTLJ0","label":"CBSH Group","url":"https://gitlab.com/cbsh"},{"id":"YuD0tp6U5zYMdDGd","label":"My Profile","url":"httls://gitlab.com/cabooshyy"}]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
