@@ -8,8 +8,8 @@
 const searchInput = document.querySelector("#searchbar > input")
 const searchButton = document.querySelector("#searchbar > button")
 
-const lookup = {"/":"/","deepl":"https://deepl.com/","reddit":"https://reddit.com/","maps":"https://maps.google.com/"}
-const engine = "google"
+const lookup = {"reddit":"https://reddit.com/","maps":"https://maps.google.com/","archwiki":"https://wiki.archlinux.org/"}
+const engine = "duckduckgo"
 const engineUrls = {
   deepl: "https://www.deepl.com/translator#-/-/",
   duckduckgo: "https://duckduckgo.com/?q=",
@@ -47,7 +47,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"o1T2cJEREONJs55J","label":"Gitlab","bookmarks":[{"id":"hYUYoju9VIzMTLJ0","label":"CBSH Group","url":"https://gitlab.com/cbsh"},{"id":"YuD0tp6U5zYMdDGd","label":"My Profile","url":"httls://gitlab.com/cabooshyy"}]}]
+const bookmarks = [{"id":"IrIzwpOJKZQwJfGt","label":"Gitlab","bookmarks":[{"id":"mdWCV7KcLf3PstUG","label":"CBSH Group","url":"https://gitlab.com/cbsh/"},{"id":"7CVzG24weplWbbV0","label":"My Gitlab","url":"https://gitlab.com/cabooshyy/"}]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")

@@ -25,12 +25,12 @@
   
   /** general */
   --font-family: Source Code Pro;
-  --display-image: none;
+  --display-image: block;
 
   /** surface */
-  --surface-maxWidth: 1600px;
-  --surface-shadow: 4px 4px 6px #4F2D57;
-  --surface-borderRadius: 28px;
+  --surface-maxWidth: 1350px;
+  --surface-shadow: 3px 3px 5px rgb(79, 45, 87), 6px 6px 5px rgb(75.18181818181819, 43.72727272727273, 83.81818181818181), 9px 9px 5px rgb(71.36363636363636, 42.45454545454545, 80.63636363636364), 12px 12px 5px rgb(67.54545454545455, 41.18181818181818, 77.45454545454545), 15px 15px 5px rgb(63.72727272727273, 39.90909090909091, 74.27272727272728), 18px 18px 5px rgb(59.90909090909091, 38.63636363636364, 71.0909090909091), 21px 21px 5px rgb(56.09090909090909, 37.36363636363636, 67.9090909090909), 24px 24px 5px rgb(52.27272727272727, 36.09090909090909, 64.72727272727272), 27px 27px 5px rgb(48.45454545454545, 34.81818181818182, 61.54545454545455), 30px 30px 5px rgb(44.63636363636363, 33.54545454545455, 58.36363636363637), 33px 33px 5px rgb(40.81818181818181, 32.27272727272727, 55.18181818181819), 36px 36px 5px rgb(37, 31, 52);
+  --surface-borderRadius: 21px;
 
   /** spacing */
   --space-smallest: 0.125rem;
@@ -41,5 +41,5 @@
 
   /** others */
   --picture-size: 300px;
-  --group-count: 4;
+  --group-count: 1;
 }
